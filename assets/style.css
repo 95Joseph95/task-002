@@ -1,0 +1,53 @@
+:root{
+    --border: 
+}
+
+p {
+    color: black;
+    font-size: 25px;
+}
+
+body {
+    background-image: linear-gradient(black, gray);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+section {
+    padding-left: 10px;
+}
+
+header {
+    display: flex;
+    padding: 2%;
+    font-size: 25px;
+    justify-content: space-between;
+    background-image: linear-gradient(red, orange, yellow);
+}
+
+section {
+font-size: 25px;
+background-image: linear-gradient(red, orange, yellow);
+}
+footer {
+    text-align: center;
+    color: white;
+}
+@media  and (max-width: 768px) {
+    main,
+    nav,
+    footer,
+    header,
+}
+@media screen and (min-width: 412px) { 
+    main,
+    nav,
+    footer,
+    header,
+}
